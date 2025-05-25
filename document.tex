@@ -1,0 +1,304 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,sans,colorlinks]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\newcommand{\comm}[1]{}
+\usepackage{xcolor}
+\definecolor{cornellred}{rgb}{0.7, 0.11, 0.11}
+\definecolor{burgundy}{rgb}{0.5, 0.0, 0.13}
+% modern themes#B31B1B 	\definecolor{cornellred}{rgb}{0.7, 0.11,
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{burgundy}
+% color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\AtBeginDocument{
+	\hypersetup{colorlinks,urlcolor=red}
+}                                                            
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+\usepackage{amsmath}
+
+\usepackage{multicol}
+\usepackage{comment}
+% adjust the page margins
+%\usepackage[scale=0.8]{geometry}
+\usepackage[left=2cm, right=2cm, top=1cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+\usepackage{amssymb}
+
+% personal data
+\name{Rishav}{Gupta} 
+
+%\address{28, Rue Marcelin Berthelot, 92120 - Montrouge - France}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+919433548242}      % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{rishavg@cmi.ac.in / rishavg3d2y@gmail.com}                               % optional, remove / comment the line if not wanted
+                        % optional, remove / comment the line if not wanted
+
+%\extrainfo{Date of Birth: 8th September, 2002}                % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{me.png}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+	%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+	%-----       resume       ---------------------------------------------------------
+	\makecvtitle
+	\vspace{-30pt}
+	%{ \textbf{Expertise}: Marketing online et offline, Coordination des projets, Branding, Merchandising.\\
+		%\textbf{Projets réalisés}:http://gnt.globo.com/especiais/projetos-multitelas}
+	
+	\section{Education}
+	
+	
+	
+	\begin{itemize}
+		\item{\cventry{2024 -- Ongoing}{PhD, Computer Science}{National University Of Singapore}{Singapore}{}{Under Prof Divesh Aggarwal
+		}}
+		\item{\cventry{2021 -- 2024}{B. Sc - Mathematics and Computer Science}{Chennai Mathematical Institute}{Chennai, Tamilnadu, India}{CGPA-9.4}{
+		}}
+		\vspace{4pt}
+		
+		\item{\cventry{2019 -- 2021}{Higher Secondary ($12^{\text{th}}$ Standard)}{BD. Public High School}{Patna, Bihar, India}{94.6\%}{
+		}}
+		
+		\vspace{4pt}
+		
+		\item{\cventry{2006-2019}{Secondary ($10^{\text{th}}$ Standard)}{St. Karen's High School}{Patna, Bihar, India}{90\%}{
+		}}
+		
+		
+	\end{itemize}
+\begin{comment}
+	
+
+	\section{Academic Achievements}
+	
+	
+	
+	\begin{itemize}
+		
+		\item{\cventry{2021}{ Qualified entrance exam of Chennai Mathematical Institute}{CMI Entrance}{}{}{}}
+		\item{\cventry{2020}{Qualified with AIR-1586}{KVPY-SX}{}{}{}}		
+		\item{\cventry{2019}{Qualified with AIR-894}{KVPY-SA}{}{}{}}		
+		\item{\cventry{2021}{Qualified with AIR-1054}{JEE-Mains}{}{}{}}
+		\item{\cventry{2021}{Qualified with AIR-1631}{JEE-Advanced}{}{}{}}		
+		
+		\item{\cventry{2021}{Qualified with AIR-18}{ISI Entrance Examination}{}{}{}}
+		\item{\cventry{2022}{Qualified for MMC(Madhava Maths Competition) Camp}{MMC }{}{}{}}		
+		
+	\end{itemize}%
+\end{comment}
+	\section{Publications and Manuscripts}
+	\begin{itemize}
+		\item \textbf{Mind the Gap? Not for SVP Hardness under ETH!} (\href{https://arxiv.org/abs/2504.02695}{arXiv})- Divesh Aggarwal, Rishav Gupta, Aditya Morolia
+	\end{itemize}
+	\section{Projects}
+	\begin{itemize}
+		
+		
+		\item \textbf{Computational Number Theroy and Algebra for Algebraic Comlexity Theory }
+		
+		\hfill Under Professor \href{https://www.cse.iitk.ac.in/users/nitin/}{Nitin Saxena}, IIT Kanpur during the winter break in Dec -- Jan, 2022.
+		
+		\item \textbf{Finding $p^{th}$ root of algebraic circuits in $\mathbb{F}^p$ in Algebraic Complexity Theory }
+		
+		\hfill Under Professor \href{https://www.cse.iitk.ac.in/users/nitin/}{Nitin Saxena}, IIT Kanpur during the summer break in May -- July, 2023.
+		
+		\item \textbf{Approximation Algorithms for matchings and packings in planar graphs}
+		
+		\hfill Under Professor \href{https://www.cmi.ac.in/~sdatta/}{Samir Datta}, CMI during the summer break in May -- July, 2023.
+		\item \textbf{Quantum Algorithms for Perfect Matching Sampler in Bipartite Graphs}
+		
+		\hfill Under Professor Yassine Hamoudi, Adrian Tanasa,LaBri,France in May 2024 -- July 2024
+		
+	\end{itemize}
+
+\section{Courses TAed}
+\begin{itemize}
+	\item Design and Analysis of Algorithms (Aug 2023 - Nov 2023) under Professor G.Phillip
+	\item Optimisation Algorithms (Aug 2024 - Nov 2024) under Professor Divesh Aggarwal
+\end{itemize}
+
+	
+	\section{Topics I Learned}
+	
+	
+	
+	\begin{itemize}
+		\item 	\textbf{Math (Bachelors):-}
+		\begin{itemize}
+			
+			\begin{multicols}{3}
+				
+				\item \textbf{Semester 1} \begin{itemize}
+					\item Analysis on Real Line
+					\item Linear Algebra
+				\end{itemize}
+				
+				\columnbreak
+				\item \textbf{Semester 2} \begin{itemize}
+					\item Analysis on $\mathbb{R}^n$
+					\item Group Theory
+					\item Probability Theory
+				\end{itemize}
+				\columnbreak
+				\item \textbf{Semester 3} \begin{itemize}
+					\item Ring Theory and Field Theory
+					\item Analysis on Metric Spaces and Fourier Series
+					\item Multivariable Calculus
+				\end{itemize}
+			\end{multicols}
+			\begin{multicols}{3}
+				\item \textbf{Semester 4} \begin{itemize}
+					\item Topology(General,Algebraic)
+					\item Differential Equations
+					\item Complex Analysis
+					
+				\end{itemize}
+			\columnbreak
+				\item \textbf{Semester 5} \begin{itemize}
+					\item Stochastic Processes
+				\end{itemize}
+				\columnbreak
+				\item \textbf{Semester 6} \begin{itemize}
+					\item 
+				\end{itemize}
+		\end{multicols}
+		\end{itemize}
+	
+
+	\item 	\textbf{CS (Bachelors):-}
+	\begin{itemize}
+		
+		\begin{multicols}{3}
+			
+			\item \textbf{Semester 1} \begin{itemize}
+				\item Functional Programming in Haskell
+			\end{itemize}
+			
+			\columnbreak
+			\item \textbf{Semester 2} \begin{itemize}
+				\item Advanced Programming in Python
+				\item Discrete Mathematics
+			\end{itemize}
+			\columnbreak
+			\item \textbf{Semester 3} \begin{itemize}
+				\item Theory of Computation
+				\item Design and Analysis of Algorithms
+			\end{itemize}
+		\end{multicols}
+		\begin{multicols}{3}
+			\item \textbf{Semester 4} \begin{itemize}
+				\item Programming Language Concepts (OOP, Java , Lambda Calculus)
+				\item Complexity Theory
+				
+			\end{itemize}
+			\columnbreak
+			\item \textbf{Semester 5} \begin{itemize}
+				\item Advanced Algorithms (Approximation , Randomized)
+				\item Quantum Algorithmatic Thinking
+				\item Fundamentals of Machine Learning
+				\item Parallel Algorithms 
+			\end{itemize}
+			\columnbreak
+			\item \textbf{Semester 6} \begin{itemize}
+				\item Expander Graphs and its Applications 
+				\item Combinatorial Optimization
+				\item Linear Programming 
+			\end{itemize}
+		\end{multicols}
+	\end{itemize}
+	\item 	\textbf{Additional Topics:-}
+	\begin{itemize}
+		
+		\begin{multicols}{2}
+			
+			\item \textbf{CS} \begin{itemize}
+				\item Algebra and Computation
+				\item Algebraic Complexity Theory
+				\item Parametrized Algorithms 
+				\item Lattices 
+				\item Online Sublinear Algorithms
+			\end{itemize}
+			
+			\columnbreak
+			\item \textbf{Mathematics} \begin{itemize}
+				\item Graph Theory
+			\end{itemize}
+		
+		\end{multicols}
+	\end{itemize}
+\end{itemize}
+
+
+
+			
+			%	\begin{multicols}{1}
+
+	
+	
+	
+	\section{Computer Skills}
+	
+	\begin{itemize}
+		
+		\item \textbf{Programming Languages:} C , C++, Python, Haskell, Java 
+		
+		\item \textbf{Technical Skills:} \LaTeX , Shell Scripting, HTML, CSS, Markdown, Git, Basic works in terminal
+		
+		
+	\end{itemize}
+	\section{Hobbies}
+	
+	\begin{itemize}
+		
+		\item  Drawing, Coding, Piano, Theming 
+		
+		
+	\end{itemize}
+	% Publications from a BibTeX file without multibib
+	%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+	%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+	%	\nocite{*}
+	%	\bibliographystyle{plain}
+	%	\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+	
+	% Publications from a BibTeX file using the multibib package
+	%\section{Publications}
+	%\nocitebook{book1,book2}
+	%\bibliographystylebook{plain}
+	%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+	%\nocitemisc{misc1,misc2,misc3}
+	%\bibliographystylemisc{plain}
+	%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+	
+	%-----       letter       ---------------------------------------------------------
+	
+\end{document}
+
+
+%% end of file `template.tex'.
